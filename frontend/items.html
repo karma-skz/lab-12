@@ -6,14 +6,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
+  <nav aria-label="Main Navigation">
     <a href="index.html">Home</a>
     <a href="items.html">Items</a>
     <a href="profile.html">Profile</a>
     <a href="analytics.html">Analytics</a>
     <a href="news.html">News</a>
   </nav>
-  <!-- fuck I think I deleted a container, god help me-->
+  <div class="container">
+    <h1>Items List</h1>
+    <ul id="items-list">
+      <!-- Items will be dynamically loaded here -->
+    </ul>
+  </div>
 
   <script src="scripts/items.js"></script>
 </body>
