@@ -37,13 +37,13 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  |     Narain    |  Whole Team  |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
+| 2   | Wrong method used in users.py (@router.post("/") used in place of @router.post("/"))                                         |   Shardul            |    Shardul          |
+| 3   | Use delete_one in place of delete_all in users.py                                         |   Shardul            |  Shardul            |
+| 4   | Wrong method used in quiz.py (@router.get("/answer") used in place of @router.post("/answer"))                                         | Shardul              |    Shardul          |
+| 5   |get_question() function is wrong in quiz.py as it always gets Id=1 but we wanted random Id                                          | Shardul              |    Shardul          |
+| 6   |router = APIRouter() should be implemented in place of router={}                                          | Shardul              |  Shardul            |
+| 7   |items.py has duplicate method calling with same route where post("/") is used twice in different ways                                          | Shardul              |  Shardul            |
+| 8   |wrong key names in analytics.py we want name and username be to used but code uses names and usernames                                          | Shardul              |  Shardul            |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
