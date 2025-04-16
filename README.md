@@ -36,7 +36,6 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-=======
 | 1   |character encoding not set to UTF-8                  | Aryan  |  Aryan |
 | 2   |<nav > element doesn't have aria label in items.html                                     |  Aryan            |   Aryan       |
 | 3   | <nav > element doesn't have  aria label in news.html                                          | Aryan              |       Aryan       |
@@ -53,11 +52,11 @@
 | 14  |       The `<form id="answerForm"></form>` is empty, which will break functionality unless dynamically populated by JavaScript. Ensure the scripts/quiz.js file correctly populates this form with answer options.                                   |  Mohammed Raza Ur Rehman              |  Mohammed Raza Ur Rehman             |
 | 15  | The `<img id="plot" src="" alt="Analytics Plot" style="max-width: 100%;" />` has an empty src attribute, which will result in a broken image. Ensure the scripts/analytics.js file dynamically sets the src or provide a default placeholder image.                                         |  Mohammed Raza Ur Rehman               |  Mohammed Raza Ur Rehman              |
 | 16  | Added class="active" to the `<a>` tag for the current page (profile.html) for better UI/UX.                                         |  Mohammed Raza Ur Rehman               |   Mohammed Raza Ur Rehman                                          |               |              |                                         |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
+| 17   | Style.css is not filled (styles.css) | Hemang | Hemang  |
+| 18   | Missing import for users router (main.py) | Hemang | Hemang |
+| 19   | Users router is not included despite being defined in the codebase (main.py) | Hemang | Hemang |
+| 20   | Changed the name field type from int to str | Hemang               | Hemang              |
+| 21   | Added BaseModel inheritance to the Item class           | Hemang | Hemang |
 | 22  |                                          |               |              |
 | 23  |                                          |               |              |
 | 24  |                                          |               |              |
