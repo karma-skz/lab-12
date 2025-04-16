@@ -37,10 +37,10 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  |     Narain    |  Whole Team  |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
+| 2   | The `<script>` tag references styles/profile.js,but the correct path is scripts/profile.js.(profile.html) | Mohammed Raza Ur Rehman | Mohammed Raza Ur Rehman |
+| 3   |       The `<form id="answerForm"></form>` is empty, which will break functionality unless dynamically populated by JavaScript. Ensure the scripts/quiz.js file correctly populates this form with answer options.                                   |  Mohammed Raza Ur Rehman              |  Mohammed Raza Ur Rehman             |
+| 4   | The `<img id="plot" src="" alt="Analytics Plot" style="max-width: 100%;" />` has an empty src attribute, which will result in a broken image. Ensure the scripts/analytics.js file dynamically sets the src or provide a default placeholder image.                                         |  Mohammed Raza Ur Rehman               |  Mohammed Raza Ur Rehman              |
+| 5   | Added class="active" to the `<a>` tag for the current page (profile.html) for better UI/UX.                                         |  Mohammed Raza Ur Rehman               |   Mohammed Raza Ur Rehman   
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
