@@ -37,7 +37,7 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   |character encoding not set to UTF-8                  | Aryan  |  Aryan |
-| 2   |                                          |               |              |
+| 2   |<nav > element doesn't have aria label                                      |  Aryan            |   Aryan       |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
