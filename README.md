@@ -36,11 +36,11 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  |     Narain    |  Whole Team  |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
+| 1   | Style.css is not filled (styles.css) | Hemang | Hemang  |
+| 2   | Missing import for users router (main.py) | Hemang | Hemang |
+| 3   | Users router is not included despite being defined in the codebase (main.py) | Hemang | Hemang |
+| 4   | Changed the name field type from int to str | Hemang               | Hemang              |
+| 5   | Added BaseModel inheritance to the Item class           | Hemang               | Hemang              |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |

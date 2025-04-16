@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
-class Item():
-    name: int
+class Item(BaseModel):
+    name: str
     description: str
 
 class User(BaseModel):
@@ -9,3 +9,4 @@ class User(BaseModel):
     bio: str
     
     # You can raise your hands and give the answer to the chocolate question
+    # no thanks
