@@ -36,6 +36,7 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
+=======
 | 1   |character encoding not set to UTF-8                  | Aryan  |  Aryan |
 | 2   |<nav > element doesn't have aria label in items.html                                     |  Aryan            |   Aryan       |
 | 3   | <nav > element doesn't have  aria label in news.html                                          | Aryan              |       Aryan       |
@@ -45,13 +46,13 @@
 | 7   | Wrong method used in quiz.py (@router.get("/answer") used in place of @router.post("/answer"))                                         | Shardul              |    Shardul          |
 | 8   |get_question() function is wrong in quiz.py as it always gets Id=1 but we wanted random Id                                          | Shardul              |    Shardul          |
 | 9   |router = APIRouter() should be implemented in place of router={}                                          | Shardul              |  Shardul            |
-| 10   |items.py has duplicate method calling with same route where post("/") is used twice in different ways                                          | Shardul              |  Shardul            |
-| 11   |wrong key names in analytics.py we want name and username be to used but cod
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
+| 10  |items.py has duplicate method calling with same route where post("/") is used twice in different ways                                          | Shardul              |  Shardul            |
+| 11  |wrong key names in analytics.py we want name and username be to used but cod
+| 12  | Style.css is not filled                  |     Narain    |  Whole Team  |
+| 13  | The `<script>` tag references styles/profile.js,but the correct path is scripts/profile.js.(profile.html) | Mohammed Raza Ur Rehman | Mohammed Raza Ur Rehman |
+| 14  |       The `<form id="answerForm"></form>` is empty, which will break functionality unless dynamically populated by JavaScript. Ensure the scripts/quiz.js file correctly populates this form with answer options.                                   |  Mohammed Raza Ur Rehman              |  Mohammed Raza Ur Rehman             |
+| 15  | The `<img id="plot" src="" alt="Analytics Plot" style="max-width: 100%;" />` has an empty src attribute, which will result in a broken image. Ensure the scripts/analytics.js file dynamically sets the src or provide a default placeholder image.                                         |  Mohammed Raza Ur Rehman               |  Mohammed Raza Ur Rehman              |
+| 16  | Added class="active" to the `<a>` tag for the current page (profile.html) for better UI/UX.                                         |  Mohammed Raza Ur Rehman               |   Mohammed Raza Ur Rehman                                          |               |              |                                         |               |              |
 | 17  |                                          |               |              |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
