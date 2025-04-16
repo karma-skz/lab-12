@@ -36,7 +36,7 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  |     Narain    |  Whole Team  |
+| 1   |character encoding not set to UTF-8                  | Aryan  |  Aryan |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
